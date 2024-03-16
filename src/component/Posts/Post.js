@@ -1,4 +1,4 @@
-// import "../../Posts.css";
+import "../../Posts.css";
 
 const Post =({post:{title, body, imgUrl, author}, index}) =>{
     // console.log(`${title}, ${body}, ${imgUrl}, ${author}`);
