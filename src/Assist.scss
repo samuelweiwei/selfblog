@@ -1,0 +1,8 @@
+$fs: 25px;
+$bgcolor: lightblue;
+$pd: 100px 350px;
+dl {
+    font-size: $fs;
+    background-color: $bgcolor;
+    padding: $pd
+}
