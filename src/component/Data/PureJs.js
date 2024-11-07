@@ -21,3 +21,8 @@ let students = [
 ];
 
 students.sort((a, b)=>{return a.age-b.age;});
+
+const word = 'asdffff92ss';
+word.split('').foreach((element, i)=>{
+    
+})

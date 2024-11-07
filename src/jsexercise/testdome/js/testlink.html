@@ -1,0 +1,26 @@
+<html>
+<header>test link</header>
+
+<body>
+    In my life<br />
+    <a href="//www.yahoo.com">yahoo</a><br />
+    <a href="//www.google.com">google</a><br />
+    <a href="//www.baidu.com">baidu</a><br />
+</body>
+
+</html>
+<script>
+    function registerHandlers() {
+        var as = document.getElementsByTagName('a');
+        for (var i = 0; i < as.length; i++) {
+            as[i].setAttribute("href", "");
+            as[i].onclick = (e)=>{
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                window.open(as[i].href, "_blank");
+                alert(i);
+                return false;
+            }
+        }
+    } 
+</script>
