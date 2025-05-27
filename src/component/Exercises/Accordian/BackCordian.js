@@ -12,6 +12,7 @@ const BackCordian = (({items})=>{
     });
     return (
         <div>
+            <h3>Smart test for back</h3>
             {items.map((element, index)=>(
                 <AccordianHeader title={element.title} 
                                  onToggle={()=>handleOnToggle(index)}
